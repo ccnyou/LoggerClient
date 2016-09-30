@@ -56,7 +56,7 @@ typedef void(^CompletionBlock)(NSError *error);
 }
 
 - (void)disconnect {
-    
+    [self.socket disconnect];
 }
 
 - (void)sendText:(NSString *)text {
@@ -71,6 +71,11 @@ typedef void(^CompletionBlock)(NSError *error);
 #pragma mark - Socket Delegate
 
 - (void)socket:(GCDAsyncSocket *)sock didConnectToHost:(NSString *)host port:(uint16_t)port {
+    NSString* log = [NSString stringWithFormat:@"%s %d, host = %@:%@", __FUNCTION__, __LINE__, host, @(port)];
+    if (self.logBlock) {
+        self.logBlock(log);
+    }
+    
     self.completion(nil);
 }
 
@@ -78,9 +83,17 @@ typedef void(^CompletionBlock)(NSError *error);
 }
 
 - (void)socketDidDisconnect:(GCDAsyncSocket *)sock withError:(NSError *)err {
+    NSString* log = [NSString stringWithFormat:@"%s %d, error = %@", __FUNCTION__, __LINE__, err];
+    if (self.logBlock) {
+        self.logBlock(log);
+    }
 }
 
 - (void)socket:(GCDAsyncSocket *)sock didWriteDataWithTag:(long)tag {
+    NSString* log = [NSString stringWithFormat:@"%s %d", __FUNCTION__, __LINE__];
+    if (self.logBlock) {
+        self.logBlock(log);
+    }
 }
 
 @end

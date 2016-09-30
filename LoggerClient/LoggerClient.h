@@ -10,6 +10,8 @@
 
 @interface LoggerClient : NSObject
 
+@property (nonatomic, copy) void (^logBlock)(NSString *text);
+
 + (LoggerClient *)client;
 - (BOOL)isConnected;
 - (void)connect:(NSString *)server port:(NSString *)port completion:(void (^)(NSError *error))completionBlock;
