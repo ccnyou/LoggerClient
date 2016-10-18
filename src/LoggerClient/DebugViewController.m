@@ -8,7 +8,6 @@
 
 #import "DebugViewController.h"
 #import "LoggerClient.h"
-#import "ViewController.h"
 
 @interface DebugViewController ()
 
@@ -51,6 +50,7 @@
 #pragma mark - UI
 
 - (void)_initApperance {
+    self.title = @"开发者工具";
     self.outputTextView.layer.borderColor = [UIColor lightGrayColor].CGColor;
     self.outputTextView.layer.borderWidth = 0.5f;
     self.outputTextView.layer.cornerRadius = 5.0f;
@@ -89,18 +89,21 @@
     [userDefaults setObject:self.portTextField.text forKey:kPortNumber];
     
     [self.client connect:self.serverTextField.text port:self.portTextField.text completion:^(NSError *error) {
-        if (error) {
-            NSLog(@"%s %d error = %@", __FUNCTION__, __LINE__, error);
-            NSString* log = [NSString stringWithFormat:@"%s %d error = %@", __FUNCTION__, __LINE__, error];
-            self.outputTextView.text = log;;
-        } else {
-            [self _updateApperance];
-        }
+        dispatch_async(dispatch_get_main_queue(), ^{
+            if (error) {
+                NSLog(@"%s %d error = %@", __FUNCTION__, __LINE__, error);
+                NSString* log = [NSString stringWithFormat:@"%s %d error = %@", __FUNCTION__, __LINE__, error];
+                self.outputTextView.text = log;
+            } else {
+                [self _updateApperance];
+            }
+        });
     }];
 }
 
 - (IBAction)_onDisconnectTouched:(id)sender {
     [self.client disconnect];
+    [self _updateApperance];
 }
 
 - (IBAction)_onBackgroundTouched:(id)sender {
