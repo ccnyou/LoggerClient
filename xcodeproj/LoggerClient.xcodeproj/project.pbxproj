@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A61F82601DB5D5C4003C3E48 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A61F825F1DB5D5C3003C3E48 /* Default-568h@2x.png */; };
+		A61F826E1DB5D5D5003C3E48 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = A61F82661DB5D5D5003C3E48 /* GCDAsyncSocket.m */; };
+		A61F826F1DB5D5D5003C3E48 /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = A61F82681DB5D5D5003C3E48 /* GCDAsyncUdpSocket.m */; };
+		A61F82701DB5D5D5003C3E48 /* AsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = A61F826B1DB5D5D5003C3E48 /* AsyncSocket.m */; };
+		A61F82711DB5D5D5003C3E48 /* AsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = A61F826D1DB5D5D5003C3E48 /* AsyncUdpSocket.m */; };
 		B2CAE5961D9E915B0014CE87 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B2CAE5951D9E915B0014CE87 /* main.m */; };
 		B2CAE5991D9E915B0014CE87 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B2CAE5981D9E915B0014CE87 /* AppDelegate.m */; };
 		B2CAE59C1D9E915B0014CE87 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2CAE59B1D9E915B0014CE87 /* ViewController.m */; };
@@ -18,10 +23,6 @@
 		B2CAE5CA1D9E92980014CE87 /* DebugViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2CAE5C81D9E92980014CE87 /* DebugViewController.m */; };
 		B2CAE5CB1D9E92980014CE87 /* DebugViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2CAE5C91D9E92980014CE87 /* DebugViewController.xib */; };
 		B2CAE5CE1D9E9D5A0014CE87 /* LoggerClient.m in Sources */ = {isa = PBXBuildFile; fileRef = B2CAE5CD1D9E9D5A0014CE87 /* LoggerClient.m */; };
-		B2CAE5DB1D9E9E6F0014CE87 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = B2CAE5D31D9E9E6F0014CE87 /* GCDAsyncSocket.m */; };
-		B2CAE5DC1D9E9E6F0014CE87 /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = B2CAE5D51D9E9E6F0014CE87 /* GCDAsyncUdpSocket.m */; };
-		B2CAE5DD1D9E9E6F0014CE87 /* AsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = B2CAE5D81D9E9E6F0014CE87 /* AsyncSocket.m */; };
-		B2CAE5DE1D9E9E6F0014CE87 /* AsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = B2CAE5DA1D9E9E6F0014CE87 /* AsyncUdpSocket.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A61F825F1DB5D5C3003C3E48 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		A61F82631DB5D5D5003C3E48 /* CocoaAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CocoaAsyncSocket.h; sourceTree = "<group>"; };
+		A61F82651DB5D5D5003C3E48 /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncSocket.h; sourceTree = "<group>"; };
+		A61F82661DB5D5D5003C3E48 /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncSocket.m; sourceTree = "<group>"; };
+		A61F82671DB5D5D5003C3E48 /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
+		A61F82681DB5D5D5003C3E48 /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
+		A61F826A1DB5D5D5003C3E48 /* AsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncSocket.h; sourceTree = "<group>"; };
+		A61F826B1DB5D5D5003C3E48 /* AsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncSocket.m; sourceTree = "<group>"; };
+		A61F826C1DB5D5D5003C3E48 /* AsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncUdpSocket.h; sourceTree = "<group>"; };
+		A61F826D1DB5D5D5003C3E48 /* AsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncUdpSocket.m; sourceTree = "<group>"; };
 		B2CAE5911D9E915B0014CE87 /* LoggerClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoggerClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2CAE5951D9E915B0014CE87 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B2CAE5971D9E915B0014CE87 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -63,15 +74,6 @@
 		B2CAE5C91D9E92980014CE87 /* DebugViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DebugViewController.xib; sourceTree = "<group>"; };
 		B2CAE5CC1D9E9D5A0014CE87 /* LoggerClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoggerClient.h; sourceTree = "<group>"; };
 		B2CAE5CD1D9E9D5A0014CE87 /* LoggerClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoggerClient.m; sourceTree = "<group>"; };
-		B2CAE5D01D9E9E6F0014CE87 /* CocoaAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CocoaAsyncSocket.h; sourceTree = "<group>"; };
-		B2CAE5D21D9E9E6F0014CE87 /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncSocket.h; sourceTree = "<group>"; };
-		B2CAE5D31D9E9E6F0014CE87 /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncSocket.m; sourceTree = "<group>"; };
-		B2CAE5D41D9E9E6F0014CE87 /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
-		B2CAE5D51D9E9E6F0014CE87 /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
-		B2CAE5D71D9E9E6F0014CE87 /* AsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncSocket.h; sourceTree = "<group>"; };
-		B2CAE5D81D9E9E6F0014CE87 /* AsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncSocket.m; sourceTree = "<group>"; };
-		B2CAE5D91D9E9E6F0014CE87 /* AsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncUdpSocket.h; sourceTree = "<group>"; };
-		B2CAE5DA1D9E9E6F0014CE87 /* AsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncUdpSocket.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +101,51 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A61F82611DB5D5D5003C3E48 /* import */ = {
+			isa = PBXGroup;
+			children = (
+				A61F82621DB5D5D5003C3E48 /* CocoaAsyncSocket */,
+			);
+			name = import;
+			path = ../import;
+			sourceTree = "<group>";
+		};
+		A61F82621DB5D5D5003C3E48 /* CocoaAsyncSocket */ = {
+			isa = PBXGroup;
+			children = (
+				A61F82631DB5D5D5003C3E48 /* CocoaAsyncSocket.h */,
+				A61F82641DB5D5D5003C3E48 /* GCD */,
+				A61F82691DB5D5D5003C3E48 /* RunLoop */,
+			);
+			path = CocoaAsyncSocket;
+			sourceTree = "<group>";
+		};
+		A61F82641DB5D5D5003C3E48 /* GCD */ = {
+			isa = PBXGroup;
+			children = (
+				A61F82651DB5D5D5003C3E48 /* GCDAsyncSocket.h */,
+				A61F82661DB5D5D5003C3E48 /* GCDAsyncSocket.m */,
+				A61F82671DB5D5D5003C3E48 /* GCDAsyncUdpSocket.h */,
+				A61F82681DB5D5D5003C3E48 /* GCDAsyncUdpSocket.m */,
+			);
+			path = GCD;
+			sourceTree = "<group>";
+		};
+		A61F82691DB5D5D5003C3E48 /* RunLoop */ = {
+			isa = PBXGroup;
+			children = (
+				A61F826A1DB5D5D5003C3E48 /* AsyncSocket.h */,
+				A61F826B1DB5D5D5003C3E48 /* AsyncSocket.m */,
+				A61F826C1DB5D5D5003C3E48 /* AsyncUdpSocket.h */,
+				A61F826D1DB5D5D5003C3E48 /* AsyncUdpSocket.m */,
+			);
+			path = RunLoop;
+			sourceTree = "<group>";
+		};
 		B2CAE5881D9E915B0014CE87 = {
 			isa = PBXGroup;
 			children = (
-				B2CAE5CF1D9E9E6F0014CE87 /* CocoaAsyncSocket */,
+				A61F82611DB5D5D5003C3E48 /* import */,
 				B2CAE5931D9E915B0014CE87 /* LoggerClient */,
 				B2CAE5AD1D9E915B0014CE87 /* LoggerClientTests */,
 				B2CAE5B81D9E915B0014CE87 /* LoggerClientUITests */,
@@ -123,6 +166,7 @@
 		B2CAE5931D9E915B0014CE87 /* LoggerClient */ = {
 			isa = PBXGroup;
 			children = (
+				A61F825F1DB5D5C3003C3E48 /* Default-568h@2x.png */,
 				B2CAE5971D9E915B0014CE87 /* AppDelegate.h */,
 				B2CAE5981D9E915B0014CE87 /* AppDelegate.m */,
 				B2CAE59A1D9E915B0014CE87 /* ViewController.h */,
@@ -138,7 +182,8 @@
 				B2CAE5CC1D9E9D5A0014CE87 /* LoggerClient.h */,
 				B2CAE5CD1D9E9D5A0014CE87 /* LoggerClient.m */,
 			);
-			path = LoggerClient;
+			name = LoggerClient;
+			path = ../src/LoggerClient;
 			sourceTree = "<group>";
 		};
 		B2CAE5941D9E915B0014CE87 /* Supporting Files */ = {
@@ -165,38 +210,6 @@
 				B2CAE5BB1D9E915B0014CE87 /* Info.plist */,
 			);
 			path = LoggerClientUITests;
-			sourceTree = "<group>";
-		};
-		B2CAE5CF1D9E9E6F0014CE87 /* CocoaAsyncSocket */ = {
-			isa = PBXGroup;
-			children = (
-				B2CAE5D01D9E9E6F0014CE87 /* CocoaAsyncSocket.h */,
-				B2CAE5D11D9E9E6F0014CE87 /* GCD */,
-				B2CAE5D61D9E9E6F0014CE87 /* RunLoop */,
-			);
-			path = CocoaAsyncSocket;
-			sourceTree = "<group>";
-		};
-		B2CAE5D11D9E9E6F0014CE87 /* GCD */ = {
-			isa = PBXGroup;
-			children = (
-				B2CAE5D21D9E9E6F0014CE87 /* GCDAsyncSocket.h */,
-				B2CAE5D31D9E9E6F0014CE87 /* GCDAsyncSocket.m */,
-				B2CAE5D41D9E9E6F0014CE87 /* GCDAsyncUdpSocket.h */,
-				B2CAE5D51D9E9E6F0014CE87 /* GCDAsyncUdpSocket.m */,
-			);
-			path = GCD;
-			sourceTree = "<group>";
-		};
-		B2CAE5D61D9E9E6F0014CE87 /* RunLoop */ = {
-			isa = PBXGroup;
-			children = (
-				B2CAE5D71D9E9E6F0014CE87 /* AsyncSocket.h */,
-				B2CAE5D81D9E9E6F0014CE87 /* AsyncSocket.m */,
-				B2CAE5D91D9E9E6F0014CE87 /* AsyncUdpSocket.h */,
-				B2CAE5DA1D9E9E6F0014CE87 /* AsyncUdpSocket.m */,
-			);
-			path = RunLoop;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -305,6 +318,7 @@
 				B2CAE5A41D9E915B0014CE87 /* LaunchScreen.storyboard in Resources */,
 				B2CAE5A11D9E915B0014CE87 /* Assets.xcassets in Resources */,
 				B2CAE5CB1D9E92980014CE87 /* DebugViewController.xib in Resources */,
+				A61F82601DB5D5C4003C3E48 /* Default-568h@2x.png in Resources */,
 				B2CAE59F1D9E915B0014CE87 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -330,15 +344,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B2CAE5DB1D9E9E6F0014CE87 /* GCDAsyncSocket.m in Sources */,
+				A61F826E1DB5D5D5003C3E48 /* GCDAsyncSocket.m in Sources */,
 				B2CAE59C1D9E915B0014CE87 /* ViewController.m in Sources */,
 				B2CAE5991D9E915B0014CE87 /* AppDelegate.m in Sources */,
-				B2CAE5DE1D9E9E6F0014CE87 /* AsyncUdpSocket.m in Sources */,
+				A61F82711DB5D5D5003C3E48 /* AsyncUdpSocket.m in Sources */,
 				B2CAE5CA1D9E92980014CE87 /* DebugViewController.m in Sources */,
-				B2CAE5DC1D9E9E6F0014CE87 /* GCDAsyncUdpSocket.m in Sources */,
+				A61F826F1DB5D5D5003C3E48 /* GCDAsyncUdpSocket.m in Sources */,
 				B2CAE5961D9E915B0014CE87 /* main.m in Sources */,
 				B2CAE5CE1D9E9D5A0014CE87 /* LoggerClient.m in Sources */,
-				B2CAE5DD1D9E9E6F0014CE87 /* AsyncSocket.m in Sources */,
+				A61F82701DB5D5D5003C3E48 /* AsyncSocket.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -479,7 +493,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = LoggerClient/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/../src/LoggerClient/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ccnyou.LoggerClient;
@@ -491,7 +505,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = LoggerClient/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/../src/LoggerClient/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ccnyou.LoggerClient;
@@ -564,6 +578,7 @@
 				B2CAE5C01D9E915B0014CE87 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B2CAE5C11D9E915B0014CE87 /* Build configuration list for PBXNativeTarget "LoggerClientTests" */ = {
 			isa = XCConfigurationList;
@@ -572,6 +587,7 @@
 				B2CAE5C31D9E915B0014CE87 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B2CAE5C41D9E915B0014CE87 /* Build configuration list for PBXNativeTarget "LoggerClientUITests" */ = {
 			isa = XCConfigurationList;
@@ -580,6 +596,7 @@
 				B2CAE5C61D9E915B0014CE87 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
